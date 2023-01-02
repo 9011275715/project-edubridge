@@ -1,0 +1,88 @@
+<!Doctype>
+#2bab0d
+<html>
+<head>
+<style>
+body
+{
+ background-color:#f7efc1;
+ }
+ </style>
+<style>
+body
+{
+ background-color:#0b5866;
+ }
+ </style>
+<title>Customer</title>
+<link href="mystyle.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<style>
+* {
+    box-sizing: border-box;
+    }
+
+.header 
+{
+    border: 1px solid red;
+    padding:15px;
+}	
+
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    
+    border: 1px solid red;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+</style>
+<h2 class="center"><b>Customer</b></h2></head>
+<body>
+<div class="border">
+<div class="lable">
+<div  class="text-color">
+<form method="POST" name="frmstock" action="customerinsert.php">
+Customer ID : <input type="text" name="customerid"/ ><br><br>
+ Name: <input type="text" name="customername"/ ><br><br>
+ Address: <input type="text" name="customeraddress" /><br><br>
+Contact No: <input type="text" name="contactno" /><br><br>
+Quantity : <input type="text" name="quantity" /><br><br>
+Total Purches product: <input type="text" name="totalpurches" /><br><br>
+<table>
+<tr>
+<th>
+<input type="submit" value="add"/>
+</th>
+<th>
+<input type="submit" value="update"/>
+</th>
+<th>
+<input type="submit" value="delete"/>
+</th>
+<th>
+<input type="submit" value="cancle"/>
+</th>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</form>
+</body>
+</html>

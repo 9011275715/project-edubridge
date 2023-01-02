@@ -1,0 +1,125 @@
+#*
+{
+margin:0px;
+padding:0px;
+box-sizinig:border-box;
+}
+.header
+{
+
+}
+.lable
+{
+width:150px;
+display:inline-block;
+text-align:left;
+}
+
+.backgroundimage
+{
+background-image:url('supermarkets.jpg') ;
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+}
+.menu-bar
+{
+background:rgb(49, 56, 51);
+text-align:center;
+}
+.menu-bar  ul
+{
+display:inline-flex;
+ list-style:none;
+color:#fff;
+}
+.menu-bar  ul li
+{
+width:130px;
+margin:2px;
+padding:2px;
+}
+.menu-bar  ul li a
+{
+text-decoration:none;
+color:#fff;
+}
+.active, .menu-bar ul li:hover
+{
+background:#2bab0d;
+border-radius:3px;
+}
+
+.menu-bar .fa
+{
+margin-right:8px;
+ }
+.sub-menu-1
+{
+display :  none;
+list-align:none;
+}
+ .menu-bar ul li:hover .sub-menu-1
+{
+display:block;
+position:absolute;
+background:rgb(49, 56, 51);
+margin-top: 15px
+margin-left:-15px
+
+}
+ .menu-bar ul li:hover .sub-menu-1 ul 
+{
+display:block;
+margin:10px;  
+}
+ .menu-bar ul li:hover .sub-menu-1 ul li
+
+{
+width:150px;
+padding :10px;
+border-bottom:1px dotted #fff;
+background:transparent;
+border-radius:0;
+text-align:left;
+  }
+ .menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+color:#b2ff00;
+}
+
+.background
+{
+ overflow:hidden;
+background-color:rgb(5, 69, 8);
+height:60;
+}
+.border
+{
+border:2px solid black;
+padding-left:500px;
+padding-right:15px;
+padding-top:80px;
+padding-bottom:80px;
+}
+
+	#border2
+	{
+	border:2px dashed red;
+	}
+.text-color
+{
+color:#fff;
+}
+
+.center
+{
+text-decoration:none;
+color:#fff;
+ text-align:center;
+background-color:;
+}

@@ -1,0 +1,87 @@
+<!Doctype html>
+<html>
+<head>
+<style>
+body
+{
+ background-color:#0b5866;
+ }
+ </style>
+<title>Registration form</title>
+<link href="mystyle.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<style>
+* {
+    box-sizing: border-box;
+    }
+
+.header 
+{
+    border: 1px solid red;
+    padding:15px;
+}	
+
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    
+    border: 1px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+</style>
+<h1 class="center"><b>Registration Form</b></h1>
+</head>
+<body>
+<div class=" col-6 " style="height:880px;" >
+<img src= "images(74).jpg"  height="80%" width="80%"/ align="legft">
+</div>
+<center>
+<div class="border">
+<div class="lable">
+<div class="text-color">
+<form method="POST" name="frmreg" action="update.php">
+<span style="color:red;">*</span>
+User ID:<input type="text" name="userid" /><br><br>
+Username:<input type="text" name="username" /><br><br>
+User E-mail:
+<input type="email" name="usermail"  /><br><br>
+User Phone No:
+<input type="Phone" name="userphone"  id="userphone" pattern="^[789][0-9]{9}$" maxlength="10"/><br><br>
+User address:
+<input type="address" name="useraddress"/><br><br>
+Gender
+<input type="gender" name="gender" /><br><br>
+age:
+<input type="text" name="age" /><br><br>
+Experience:
+<input type="text" name="experience"  /><br><br>
+
+<input type="submit"  value="update" />
+<input type="submit"  value="delete" />
+<input type="submit"  value="cancle" />
+
+</div>
+<b>Note: </b><span style="color:red;">*</span><i>compulsary fields.</i>
+<br>
+</div>
+</div>
+</form>
+</center>
+</body>
+</html>
